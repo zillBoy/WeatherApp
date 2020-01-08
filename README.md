@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## First thing your should do is 
+## First thing you should do is 
 
 ### `use your APPID to get the weather data`
 
