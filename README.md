@@ -15,3 +15,4 @@ You will also see any lint errors in the console.
 ### `use your APPID to get the weather data`
 
 You can get the weather APPID from (https://openweathermap.org/api)
+add the APPID in AddLocationEvent.js file (WeatherApp/src/AddLocationEvent/)
