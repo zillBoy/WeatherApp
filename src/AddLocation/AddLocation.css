@@ -1,0 +1,108 @@
+ /* NEW STUFF */
+
+#add-location-reverse-print {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-flow: column-reverse;
+    height: 100%;
+    margin: 0px;
+}
+
+
+#add-location-div {
+    box-shadow: 2px 8px 15px 0 rgb(156, 156, 156);
+    border-radius: 13px;
+    background-color: white;
+    width: 240px;
+    margin-top: 18px;
+}
+
+/* Upper data div */
+
+#weather-data-content-main-div {
+    display: flex;
+} 
+
+#weather-data-content-div {
+    display: flex;
+}
+
+/* Weather data image */
+
+#weather-data-image-div {
+    margin: 0px 10px 0px 0px;
+    align-items: center;
+}
+
+#weather-data-image {
+    width: 35px;
+    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #DFE7F4;
+    border-radius: 13px;
+}
+
+/* Weather data for temperature */
+
+#weather-data-temperature {
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 640;
+}
+
+/* Vertical line */
+
+#vertical-big-line {
+    width: 0.9px;
+    background-color: #ccc;
+    height: 30px;
+    margin-top: 17px;
+}
+
+/* Weather data for city and country*/
+
+#weather-data-city-country-div {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#weather-data-city {
+    font-size: 16px;
+    font-weight: 480;
+    margin-top: 12px;
+}
+
+#weather-data-country {
+    color: grey;
+    font-size: 10px;
+    margin: -17px 0px 0px 0px;
+}
+
+/* Lower data div */
+
+#lower-data-div {
+    display: flex;
+    color: grey;
+    font-size: 10px;
+    margin-top: -12px;
+}
+
+/* Vertical small line */
+
+#vertical-small-line {
+    width: 0.9px;
+    background-color: #ccc;
+    height: 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* lower-data-humidity */
+
+#lower-data-humidity {
+    margin-left: 12px;
+    margin-right: 12px;
+}

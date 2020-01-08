@@ -1,0 +1,54 @@
+/* Main Section */
+
+#cardDiv {
+    display: inline-flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 17px;
+    margin: 10px 10px 4px 10px;
+    border: 0.4px solid rgb(179, 179, 179);
+}
+
+/* Day and Weather Section */
+
+#dayAndWeatherDiv {
+    margin: auto 25px auto 0px;
+}
+
+#dayPara {
+    color: grey;
+    font-weight: 760;
+    margin: 0px;
+    font-size: 13px;
+}
+
+#weatherPara {
+    font-size: 10px;
+    color: rgba(141, 140, 140, 0.925);
+    margin: 0px;
+}
+
+/* Temperature Section #7768E5 */
+
+#cardTempDiv {
+    background-color: #7768E5;
+    margin: -0.3px;
+    padding: 4px 10px;
+    border-radius: 14px;
+    border-left:0.3px solid #DFE7F4;
+}
+
+#cardTemp {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Image Section */
+
+#cardImgDiv {
+    margin: auto 0px auto 10px;
+}
+
+#cardImg {
+    width: 75%;
+    height: auto; 
+}

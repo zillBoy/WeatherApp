@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+/* Paras that contain the heading and the content will lie down */
+
+#paraHeadingDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.BoldPara {
+  font-size: 20px;
+  font-weight: 620;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.lightPara {
+  font-weight: 200;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Content  */
+
+#ContentDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#Day {
+  margin-left: 40px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#PlaceToVisit {
+  margin-left: 48px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#reversePrint {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: -42px;
 }
+
+#max-min-app-size {
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #F0EFFC;
+  color: #7768EF;
+  font-weight: 550;
+}
+
+/*
+  margin-top: calc(1 * -72px - (0 * 44px));
+  1 * -72 - (0*44);
+  2 * -72 - (1*44);
+  3 * -72 - (2*44);
+*/
+
+
+
+ /* body {
+  background-color: #E3E8ED;
+} */

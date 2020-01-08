@@ -1,0 +1,117 @@
+#weatherAndTemperatureMainDiv {
+    position: absolute;
+    margin-top: 100px;
+}
+
+/* Weather Condition Section, contains the image part */
+
+#weatherConditionDiv {
+    background-color: #353688;
+    margin: 20px 0px 0px 0px;
+    padding: 10px;
+    border-radius: 0 25px 25px 25px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+#weatherConditionInnerDiv {
+    width: 70px;
+    padding: 22px;
+}
+
+#weatherCondition {
+    font-size: 25px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+#weatherConditionImg {
+    font-size: 25px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative; 
+}
+
+/* Weather Temperature Section */
+
+#weatherTemperatureDiv {
+    background-color: #7768E5;
+    padding: 10px;
+    border-radius: 0px 0px 25px 0px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 25px 0 grey;
+}
+
+#weatherTemperature {
+    font-size: 25px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+
+/* The Inverted Border Radius */
+
+#weatherCondition::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+ 
+    height: 50px;
+    width: 25px;
+        
+    right: 67px;
+    bottom: 64px;
+
+    border-bottom-left-radius: 25px;
+    box-shadow: 0 25px 0 0 #353688;
+}
+
+#weatherTemperature::before {
+    content: "";
+    position: absolute;
+    background-color: transparent;
+
+    height: 50px;
+    width: 25px;
+    
+    right: 32px;
+    bottom: -85px;
+
+    border-top-left-radius: 25px;
+    box-shadow: 0 -25px 0 0 #7768E5;
+}
+
+#fillInTheSpaceLeft::before {
+    position: absolute;
+    content: "";
+    background-color: transparent;
+
+    height: 50px;
+    width: 25px;
+
+    left:0px;
+    top: 69px;
+
+    border-bottom-left-radius: 25px;
+    box-shadow: 0 25px 0 0 #7768E5;
+}
+
+#fillInTheSpaceRight::before {
+    position: absolute;
+    content: "";
+    background-color: transparent;
+
+    height: 50px;
+    width: 25px;
+
+    left: 65px;
+    top: 69px;
+
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 25px 0 0 #7768E5;
+}
